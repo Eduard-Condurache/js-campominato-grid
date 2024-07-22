@@ -24,7 +24,6 @@ main {
 
 #grid-container > * {
     text-align: center;
-    width: calc(100% / 10);
     height: 65px;
     border: 1px solid black;
     display: flex;
@@ -36,6 +35,18 @@ main {
 
 #grid-container > .new-bg-color {
     background-color: lightcoral;
+}
+
+.easy-dif .cell {
+    width: calc(100% / 7);
+}
+
+.normal-dif .cell {
+    width: calc(100% / 9);
+}
+
+.hard-dif .cell {
+    width: calc(100% / 10);
 }
 
 /* FOOTER */
