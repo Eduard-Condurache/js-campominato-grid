@@ -1,0 +1,45 @@
+
+/* HEADER */
+
+header {
+    height: 100px;
+}
+
+/* MAIN */
+
+main {
+    height: calc(100vh - 150px);
+    background-color: aquamarine;
+}
+
+.my-container {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+#grid-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#grid-container > * {
+    text-align: center;
+    width: calc(100% / 10);
+    height: 65px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+#grid-container > .new-bg-color {
+    background-color: lightcoral;
+}
+
+/* FOOTER */
+
+footer {
+    height: 50px;
+}
